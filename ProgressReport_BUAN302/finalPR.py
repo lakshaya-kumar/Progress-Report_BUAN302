@@ -15,7 +15,7 @@ from sklearn.naive_bayes import GaussianNB
 # -----------------------------------------------------------
 # LOAD DATASET
 # -----------------------------------------------------------
-df = pd.read_csv("/Users/lakshayamk/Desktop/Maternal Health Risk Data Set.csv")
+df = pd.read_csv("Maternal Health Risk Data Set.csv")
 
 # Clean column names if needed
 df.columns = [col.strip() for col in df.columns]
